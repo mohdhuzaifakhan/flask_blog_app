@@ -1,7 +1,20 @@
 {% extends "layout.html" %}
 {% block content %}
-    <div class="content-section">
+    <!-- <div class="content-section">
         <h1>You don't have permission to do that (403)</h1>
         <p>Please check your account and try again</p>
+    </div> -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="error-container">
+                    <h1 class="error-heading">403</h1>
+                    <p class="error-message">Oops! It seems like the page you are looking for doesn't exist.</p>
+                    <p>Don't worry, let's get you back on track. You can go back to our <a href="/"
+                            class="home-link">homepage</a> or try searching for what you're looking for.</p>
+                    <img src="https://via.placeholder.com/300" alt="403 Error Image" class="error-image">
+                </div>
+            </div>
+        </div>
     </div>
 {% endblock content %}
