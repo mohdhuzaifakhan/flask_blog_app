@@ -1,0 +1,10 @@
+endpoints:
+  - name: blogapp
+    path: /api/blogapp
+    method: GET
+    description: Endpoint 1 description
+
+  - name: blogapp
+    path: /api/blogapp
+    method: POST
+    description: Endpoint 2 description
